@@ -1,0 +1,80 @@
+/* GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Raleway, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* HEADER */
+header{
+    margin: 0 50px;
+}
+header img{
+    margin: 10px auto;
+}
+header ul{
+    float: right;
+    background-color: tan;
+}
+header ul li{
+    display: inline-block;
+    background-color: green;
+    width: 450px;
+    height: 80px;
+    text-align: center;
+}
+header ul li a{
+    background-color: teal;
+}
+header ul li a:hover{
+    color: #0065FC;
+}
+
+/* BANNER */
+#Banner{
+    margin: 50px 50px;
+}
+#Banner_msg{
+    margin: 25px 0;
+}
+#Search{
+    display: flex;
+    border-radius: 10px;
+    width: 450px;
+    height: 40px;
+    overflow: hidden;
+}
+#search_icons{
+    width: 50px;
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type=text],input[type=submit]{
+    border: none;
+    font-weight: bold;
+}
+input[type=text]{
+    width: 250px;
+    padding-left: 10px;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+}
+input[type=submit]{
+    color: white;
+    background-color: #0065FC;
+    width: 150px;
+}
+/* FILTER */
+
+/* HEBERGEMENT */
+
+/* ACTIVITIES */
+
+/* FOOTER*/
